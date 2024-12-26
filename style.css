@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header button, header input {
+    margin: 0 5px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}

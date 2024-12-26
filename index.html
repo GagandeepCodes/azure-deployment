@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Random User Web App</h1>
+        <button id="refreshButton">Refresh</button>
+        <input type="text" id="searchBar" placeholder="Search by Country">
+        <button id="viewEnvButton">View Environment Variables</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="userTable"></tbody>
+        </table>
+        <div id="pagination"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
